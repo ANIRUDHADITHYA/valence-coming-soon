@@ -115,6 +115,9 @@
     .introContainer{
         max-width: 100vw;
     }
+    .homeContainer{
+        overflow-y: scroll;
+    }
     
 
 }
