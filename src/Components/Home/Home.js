@@ -37,10 +37,11 @@ const Home = () => {
     };
 
     useEffect(() => {
+        
         startTimer();
-        return () => {
+        /*return () => {
             clearInterval(interval.current)
-        }
+        }*/
     })
     return (
         <div>
