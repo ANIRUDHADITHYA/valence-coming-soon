@@ -161,5 +161,9 @@
     .homeTextArea p{
         font-size: 10px;
     }
+    .introContainer{
+        padding: 45px;
+       
+    }
 
 }
