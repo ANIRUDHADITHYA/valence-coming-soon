@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backgroundImage{
+    flex: 1;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://konte.uix.store/coming-soon/wp-content/uploads/sites/6/2018/12/BG.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.homeContainer {
+    display: flex;
+    max-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.introContainer{
+    flex: 1;
+    max-width: 50vw;
+    padding: 70px;
+   
+}
+.introContainer img{
+    padding-top: 20px;
+    width: 192px;
+    height: 20%;
+    margin: 0px 0px 50px;
+}
+.homeContainer{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.homeTextArea h1{
+    font-size: 38px;
+    line-height: 1.3;
+    font-weight: 400;
+    
+    margin: 0px 0px 15px;
+}
+.homeTextArea p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    letter-spacing: 0.3px;
+}
+
+.homeTextArea{
+    margin-bottom: 20px;
+}
+
+.homeTimer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 180px;
+    padding-bottom: 50px;
+}
+.homeTimer h1{
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 20px;    
+}
+.homeTimer p{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0px 0px 0px 2px;
+}
+
+.downloads input{
+    padding: 20px 20px;
+    margin: 0px 20px 0px 0px;
+    letter-spacing: 1px;
+    min-width: 280px;
+    border: 1px solid black;
+}
+.downloads button {
+    padding: 20px 50px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.downloads{
+    padding-bottom: 30px;
+    display: flex;
+}
+
+
+.socialAccounts a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #0A66C2;
+    padding-left: 5px;
+}
+.socialAccounts{
+    font-style: italic;
+}
+
+
+@media(max-width: 1150px){
+    
+    .backgroundImage{
+        display: none;
+    }
+    .homeContainer{
+        flex-direction: column;
+    }
+    .introContainer{
+        max-width: 100vw;
+    }
+    
+
+}
+
+@media(max-width: 700px){
+
+    .downloads{
+        flex-direction: column;
+    }
+
+    .downloads input{
+        width: 80%;
+        margin: 0;
+    }
+    .downloads button{
+        width: 80%;
+    }
+    .inputButtonSpace{
+        padding: 10px;
+    }
+
+    .homeTimer{
+        padding-right: 0px;
+    } 
+
+    .homeTimer h1{
+        font-size: 30px;
+    }
+    .homeTimer p{
+        font-size: 10px;
+    }
+
+}
