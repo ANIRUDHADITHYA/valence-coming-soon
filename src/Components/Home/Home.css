@@ -76,7 +76,7 @@
     padding: 20px 20px;
     margin: 0px 20px 0px 0px;
     letter-spacing: 1px;
-    min-width: 280px;
+    width: 50%;
     border: 1px solid black;
 }
 .downloads button {
@@ -147,6 +147,18 @@
         font-size: 30px;
     }
     .homeTimer p{
+        font-size: 10px;
+    }
+    .introContainer img{
+        padding-top: 0px;
+        width: 192px;
+        height: 20%;
+        margin: 0px 0px 50px;
+    }
+    .homeTextArea h1{
+        font-size: 30px;
+    }
+    .homeTextArea p{
         font-size: 10px;
     }
 

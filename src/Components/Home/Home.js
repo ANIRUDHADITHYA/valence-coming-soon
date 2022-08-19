@@ -52,7 +52,7 @@ const Home = () => {
                     </div>
                     <div className="homeTextArea">
                         <h1>Coming Soon</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br></br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                             sed do eiusmod tempor incididunt</p>
                     </div>
                     <div className="homeTimer">
