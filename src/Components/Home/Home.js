@@ -1,10 +1,17 @@
 import logo from "./../Assets/logo.png";
 import { useState, useRef, useEffect } from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
+import useForm from "../Hooks/useForms";
+import Validate from "./../Utils/Validate";
 
 
 const Home = () => {
+
+
+    const { values, errors, handleChange, handleSubmit } = useForm(Validate)
+
+
+
     const [timerDays, setTimerDays] = useState("0");
     const [timerHours, setTimerHours] = useState("0");
     const [timerMinutes, setTimerMinutes] = useState("0");
@@ -37,7 +44,7 @@ const Home = () => {
     };
 
     useEffect(() => {
-        
+
         startTimer();
         /*return () => {
             clearInterval(interval.current)
@@ -74,12 +81,15 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="downloads">
-                        <input placeholder="Your email address"></input>
+                        
+                        <input placeholder="Your email address" name="email" value={values.email} onChange={handleChange}></input>
+
                         <div className="inputButtonSpace">{""}</div>
-                        <button>Download Brochure</button>
+                        <a onClick={handleSubmit} href={!errors.email && process.env.PUBLIC_URL+"/asserts/VAM_Brochure.pdf"} download>Download Brochure</a>
                     </div>
+                    <div className="errorDivision">{errors.email ? <p>*{errors.email}</p> : <p></p>}</div>
                     <div className="socialAccounts">
-                        stay tuned, follow us on <Link to="#"><i class="fa-brands fa-linkedin"></i></Link> 
+                        stay tuned, follow us on <a href="https://www.linkedin.com/in/valenceadvancedmaterials" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div className="backgroundImage"></div>

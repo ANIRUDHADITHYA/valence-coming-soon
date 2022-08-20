@@ -21,17 +21,21 @@
     display: flex;
     max-height: 100vh;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .introContainer {
     flex: 1;
     max-width: 50vw;
-    padding: 50px;
+    padding: 80px;
+    display: block;
+    height: 100%;
+    margin: auto;
 
 }
 
 .introContainer img {
-    padding-top: 10px;
+    
     width: 192px;
     height: 20%;
     margin: 0px 0px 30px;
@@ -64,7 +68,6 @@
 .homeTimer {
     display: flex;
     justify-content: space-between;
-    padding-right: 80px;
     padding-bottom: 50px;
 }
 
@@ -82,32 +85,48 @@
 }
 
 .downloads input {
+    flex: 10;
     padding: 20px 20px;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 0px 0px 0px;
     letter-spacing: 1px;
-    width: 50%;
     border: 1px solid black;
 }
 
-.downloads button {
-    padding: 20px 50px;
+.inputButtonSpace{
+    flex: 1;
+}
+
+.downloads a {
+    padding: 20px 20px;
     border: 1px solid black;
     background-color: black;
     color: white;
     letter-spacing: 1px;
+    font-size: 13px;
     font-weight: bold;
     transition: 0.3s;
+    flex: 10;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
 }
 
-.downloads button:hover {
+.downloads a:hover {
     background-color: #2D4798;
     color: white;
     border: 1px solid black;
 }
 
 .downloads {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     display: flex;
+    justify-content: space-between;
+    
+}
+.errorDivision p{
+    color: rgb(180, 19, 19);
+    font-size: 15px;
+    padding-left: 10px;
 }
 
 
@@ -120,6 +139,7 @@
 
 .socialAccounts {
     font-style: italic;
+    padding-top: 20px;
 }
 
 
@@ -137,25 +157,9 @@
         max-width: 100vw;
     }
 
-    .homeContainer {
-        overflow-y: scroll;
-    }
-    
-
 }
 
-@media(max-width: 1252px) {
-    .homeTimer {
-        padding-right: 180px;
-        padding-bottom: 25px;
-    }
 
-    .homeTimer h1 {
-        
-        padding-bottom: 10px;
-    }
-
-}
 
 @media(max-width: 700px) {
 
@@ -168,7 +172,7 @@
         margin: 0;
     }
 
-    .downloads button {
+    .downloads a {
         width: 100%;
     }
 
