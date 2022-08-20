@@ -1,4 +1,3 @@
-import logo from "./../Assets/logo.png";
 import { useState, useRef, useEffect } from "react";
 import "./Home.css";
 import useForm from "../Hooks/useForms";
@@ -55,7 +54,7 @@ const Home = () => {
             <div className="homeContainer">
                 <div className="introContainer">
                     <div>
-                        <img src={logo} alt="logo"></img>
+                        <img src={process.env.PUBLIC_URL+"/asserts/logo.png"} alt="logo"></img>
                     </div>
                     <div className="homeTextArea">
                         <h1>Coming Soon</h1>
