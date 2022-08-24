@@ -34,7 +34,7 @@ const useForm = (Validate) => {
     useEffect(()=>{
         const addDoc = async () => {
             try { 
-                await setDoc (doc(db, "subscribers", values.id), values)
+                await setDoc (doc(db, "BrochureDownloads", values.id), values)
                 values.email = "";
             } catch(errs){
                 console.log(errs)

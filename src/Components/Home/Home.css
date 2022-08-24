@@ -12,7 +12,7 @@
     flex: 1;
     height: 100vh;
     width: 100%;
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/testdb-74407.appspot.com/o/images%2Fbill-jelen-NVWyN8GamCk-unsplash.jpg?alt=media&token=3c494946-234c-4e5a-b9eb-cdf4eb791b61");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/valence-am.appspot.com/o/CommingSoon%2Fbill-jelen-NVWyN8GamCk-unsplash.jpg?alt=media&token=6060314f-7c9d-4de1-9827-b53d264b5d4e");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -23,6 +23,7 @@
     max-height: 100vh;
     overflow-x: hidden;
     overflow-y: hidden;
+    cursor: pointer;
 }
 
 .introContainer {
@@ -163,11 +164,15 @@
 }
 .socialAccounts i{
     font-size: 20px;
+    transition: 0.3s;
+}
+.socialAccounts i:hover{
+    color: #2D4798;
 }
 
 
 
-@media(max-width: 1150px) {
+@media(max-width: 1200px) {
 
     .backgroundImage {
         display: none;
@@ -183,6 +188,9 @@
     .introContainer img {
 
         margin: 0px 0px 20px;
+    }
+    .downloads a{
+        padding: 20px 20px;
     }
 
 }
@@ -207,6 +215,12 @@
     }
     .socialAccounts i{
         font-size: 15px;
+    }
+    .introContainer {
+        padding: 20px 60px;
+    }
+    .homeTimer h1{
+        font-size: 32px;
     }
 
 }
@@ -263,5 +277,6 @@
         padding: 45px;
 
     }
+    
 
 }

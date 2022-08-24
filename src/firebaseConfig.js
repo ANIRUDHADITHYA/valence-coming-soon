@@ -3,12 +3,13 @@ import {getAuth} from 'firebase/auth'
 import { getFirestore } from "@firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA2VxbstMFGpdzdyywoLFIv1XKzvtPkrtw",
-    authDomain: "testdb-74407.firebaseapp.com",
-    projectId: "testdb-74407",
-    storageBucket: "testdb-74407.appspot.com",
-    messagingSenderId: "850042237335",
-    appId: "1:850042237335:web:d1970fa1452aabd6d314d2"
+  apiKey: "AIzaSyBQsB_reZLJXBdISt2GkEFRShyJIRAQz7Y",
+  authDomain: "valence-am.firebaseapp.com",
+  projectId: "valence-am",
+  storageBucket: "valence-am.appspot.com",
+  messagingSenderId: "638008820651",
+  appId: "1:638008820651:web:70695a27fd8920804a48ee",
+  measurementId: "G-MFDKZFRF77"
 };
 
   const app = initializeApp(firebaseConfig);
