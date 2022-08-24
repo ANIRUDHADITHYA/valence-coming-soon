@@ -90,7 +90,7 @@ const Home = () => {
                         <input placeholder="Your email address" name="email" value={values.email} onChange={handleChange}></input>
 
                         <div className="inputButtonSpace">{""}</div>
-                        <a onClick={handleSubmit} href={!errors.email && process.env.PUBLIC_URL + "/asserts/VAM_Brochure.pdf"} target="_blank">Download Brochure</a>
+                        <a onClick={handleSubmit} href={!errors.email && process.env.PUBLIC_URL + "/asserts/VAM_Brochure.pdf"} >Download Brochure</a>
                     </div>
                     <div className="errorDivision">{errors.email ? <p>*{errors.email}</p> : <p></p>}</div>
                     <h1 className="Drop">Launching In !</h1>
