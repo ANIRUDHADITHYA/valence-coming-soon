@@ -28,7 +28,7 @@
 .introContainer {
     flex: 1;
     max-width: 50vw;
-    padding: 30px 80px;
+    padding: 50px 80px;
     display: block;
     height: 100%;
     margin: auto;
@@ -36,7 +36,7 @@
 }
 
 .introContainer img {
-    
+
     width: 300px;
     height: 40%;
     margin: 0px 0px 30px;
@@ -46,10 +46,7 @@
     font-family: 'Noto Sans', sans-serif;
 
 }
-.p1{
-    font-style: italic;
-    font-weight: 400;
-}
+
 
 .homeTextArea h1 {
     font-size: 30px;
@@ -60,22 +57,31 @@
 }
 
 .homeTextArea p {
-    font-size: 16px;
     font-weight: 400;
     line-height: 1.7em;
     letter-spacing: 0.3px;
 }
 
 .homeTextArea {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.Drop{
-    padding: 20px 0px 10px 0px;
+.homeTextArea span p {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.homeTextArea div p {
     text-align: justify;
 }
 
-.homeTextArea p{
+.introContainer span h1 {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+
+.homeTextArea p {
     padding: 10px 0px;
 }
 
@@ -106,7 +112,7 @@
     border: 1px solid #4B4A4C;
 }
 
-.inputButtonSpace{
+.inputButtonSpace {
     flex: 1;
 }
 
@@ -135,9 +141,10 @@
     padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
-    
+
 }
-.errorDivision p{
+
+.errorDivision p {
     color: rgb(180, 19, 19);
     font-size: 15px;
     padding-left: 10px;
@@ -145,7 +152,6 @@
 
 
 .socialAccounts a {
-    font-size: 25px;
     text-decoration: none;
     color: #0A66C2;
     padding-left: 5px;
@@ -154,6 +160,9 @@
 .socialAccounts {
     font-style: italic;
     padding-top: 20px;
+}
+.socialAccounts i{
+    font-size: 20px;
 }
 
 
@@ -170,6 +179,34 @@
 
     .introContainer {
         max-width: 100vw;
+    }
+    .introContainer img {
+
+        margin: 0px 0px 20px;
+    }
+
+}
+
+@media(max-height:680px){
+
+    .introContainer img {
+        margin: 0px 0px 10px;
+
+    }
+    .homeTextArea p {
+        padding: 5px 0px;
+    }
+    .downloads input {
+        padding: 10px 20px;
+    }
+    .downloads a{
+        padding: 10px 20px;
+    }
+    .socialAccounts {
+        padding-top: 10px;
+    }
+    .socialAccounts i{
+        font-size: 15px;
     }
 
 }

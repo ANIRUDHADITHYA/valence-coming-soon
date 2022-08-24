@@ -45,9 +45,6 @@ const Home = () => {
     useEffect(() => {
 
         startTimer();
-        /*return () => {
-            clearInterval(interval.current)
-        }*/
     })
     return (
         <div>
@@ -58,42 +55,21 @@ const Home = () => {
                     </div>
                     <div className="homeTextArea">
                         <h1>T-Minus…</h1>
-                        <p className="p1" style={{ fontWeight: "500" }}><span>Why didn’t the sun go to college?<br></br>
-                            Because it already had a million degrees!</span></p>
+                        <span><p>Why didn’t the sun go to college?<br></br>
+                            Because it already had a million degrees!</p></span>
                         <p>Now that you have smiled, do you want to know how to make a lighter, stronger & aesthetically beautiful composite part?</p>
-                        <p style={{paddingBottom: 0}}>Drop in your email address and check out all our composite consumables!</p>
-                    </div>
-                    {/*<div className="homeTimer">
-                        <div className="days">
-                            <h1>{timerDays < 10 ? "0" + timerDays : timerDays}</h1>
-                            <p>DAYS</p>
-                        </div>
-                        <div className="hours">
-                            <h1>{timerHours < 10 ? "0" + timerHours : timerHours}</h1>
-                            <p>Hours</p>
-                        </div>
-                        <div className="minutes">
-                            <h1>{timerMinutes < 10 ? "0" + timerMinutes : timerMinutes}</h1>
-                            <p>Minutes</p>
-                        </div>
-                        <div className="seconds">
-                            <h1>{timerSeconds < 10 ? "0" + timerSeconds : timerSeconds}</h1>
-                            <p>Seconds</p>
-                        </div>
-
+                        <div><p>Drop in your email address and check out all our composite consumables!</p></div>
                         
-    </div>*/}
-
+                    </div>                    
 
                     <div className="downloads">
-
                         <input placeholder="Your email address" name="email" value={values.email} onChange={handleChange}></input>
-
                         <div className="inputButtonSpace">{""}</div>
                         <a onClick={handleSubmit} href={!errors.email && process.env.PUBLIC_URL + "/asserts/VAM_Brochure.pdf"} >Download Brochure</a>
                     </div>
+
                     <div className="errorDivision">{errors.email ? <p>*{errors.email}</p> : <p></p>}</div>
-                    <h1 className="Drop">Launching In !</h1>
+                    <span><h1>Launching In !</h1></span>
 
 
 
