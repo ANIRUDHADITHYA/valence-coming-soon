@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #4B4A4C;
 }
 
 .backgroundImage {
@@ -27,7 +28,7 @@
 .introContainer {
     flex: 1;
     max-width: 50vw;
-    padding: 80px;
+    padding: 30px 80px;
     display: block;
     height: 100%;
     margin: auto;
@@ -36,8 +37,8 @@
 
 .introContainer img {
     
-    width: 192px;
-    height: 20%;
+    width: 300px;
+    height: 40%;
     margin: 0px 0px 30px;
 }
 
@@ -47,9 +48,9 @@
 }
 
 .homeTextArea h1 {
-    font-size: 38px;
+    font-size: 30px;
     line-height: 1.3;
-    font-weight: 400;
+    font-weight: 600;
 
     margin: 0px 0px 15px;
 }
@@ -65,10 +66,19 @@
     margin-bottom: 20px;
 }
 
+.Drop{
+    padding: 20px 0px;
+    text-align: justify;
+}
+
+.homeTextArea p{
+    padding: 10px 0px;
+}
+
 .homeTimer {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .homeTimer h1 {
@@ -141,6 +151,7 @@
     font-style: italic;
     padding-top: 20px;
 }
+
 
 
 @media(max-width: 1150px) {

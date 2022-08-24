@@ -54,12 +54,14 @@ const Home = () => {
             <div className="homeContainer">
                 <div className="introContainer">
                     <div>
-                        <img src={process.env.PUBLIC_URL+"/asserts/logo.png"} alt="logo"></img>
+                        <img src={process.env.PUBLIC_URL + "/asserts/logo.png"} alt="logo"></img>
                     </div>
                     <div className="homeTextArea">
-                        <h1>Coming Soon</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                            sed do eiusmod tempor incididunt</p>
+                        <h1>T-Minus…</h1>
+                        <p>Why didn’t the sun go to college?<br></br>
+                            Because it already had a million degrees!</p>
+                        <p>Now that you have smiled, do you want to know how to make a lighter, stronger & aesthetically beautiful composite part?</p>
+                        
                     </div>
                     <div className="homeTimer">
                         <div className="days">
@@ -79,16 +81,17 @@ const Home = () => {
                             <p>Seconds</p>
                         </div>
                     </div>
+                    <p className="Drop">Drop in your email address and check out all our composite consumables!</p>
                     <div className="downloads">
-                        
+
                         <input placeholder="Your email address" name="email" value={values.email} onChange={handleChange}></input>
 
                         <div className="inputButtonSpace">{""}</div>
-                        <a onClick={handleSubmit} href={!errors.email && process.env.PUBLIC_URL+"/asserts/VAM_Brochure.pdf"} download>Download Brochure</a>
+                        <a onClick={handleSubmit} href={!errors.email && process.env.PUBLIC_URL + "/asserts/VAM_Brochure.pdf"} download>Download Brochure</a>
                     </div>
                     <div className="errorDivision">{errors.email ? <p>*{errors.email}</p> : <p></p>}</div>
                     <div className="socialAccounts">
-                        stay tuned, follow us on <a href="https://www.linkedin.com/in/valenceadvancedmaterials" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/valenceadvancedmaterials" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div className="backgroundImage"></div>
