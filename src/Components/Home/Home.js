@@ -47,7 +47,7 @@ const Home = () => {
         startTimer();
     })
     return (
-        <div>
+        <div id="container">
             <div className="homeContainer">
                 <div className="introContainer">
                     <div>
