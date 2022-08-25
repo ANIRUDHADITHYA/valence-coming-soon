@@ -92,7 +92,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="socialAccounts">
-                        <a href="https://www.linkedin.com/in/valenceadvancedmaterials" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/in/valenceadvancedmaterials" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div className="backgroundImage"></div>
