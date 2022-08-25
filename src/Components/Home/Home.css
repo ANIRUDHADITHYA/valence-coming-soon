@@ -264,7 +264,7 @@
     }
 
     .introContainer img {
-        padding-top: 20px;
+        padding-top: 0px;
         width: 192px;
         height: 20%;
         margin: 20px 0px 20px;
@@ -279,7 +279,7 @@
     }
 
     .introContainer {
-        padding: 5% 45px;
+        padding: 20px 45px;
         align-items: center;
 
     }
