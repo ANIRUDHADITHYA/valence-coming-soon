@@ -174,7 +174,7 @@
 
 
 
-@media(max-width: 1210px) {
+@media(max-width: 1000px) {
 
     .backgroundImage {
         display: none;
@@ -194,17 +194,33 @@
     .downloads a{
         padding: 20px 20px;
     }
+    .introContainer {
+        padding: 20px 60px;
+    }
+    .homeTimer h1{
+        font-size: 32px;
+    }
+    .homeTimer h1 {
+        padding-bottom: 10px;
+    }
+    .homeTextArea h1 {    
+        margin: 0px 0px 13px;
+    }
 
 }
 
 @media(max-width:1500px){
 
     .introContainer img {
-        margin: 0px 0px 20px;
+        margin: 0px 0px 15px;
 
     }
     .homeTextArea p {
-        padding: 5px 0px;
+        font-size: 13px;
+        padding: 3px 0px;
+    }
+    .homeTextArea h1{
+        font-size: 27px;
     }
     .downloads input {
         padding: 10px 20px;
@@ -213,20 +229,24 @@
         padding: 10px 20px;
     }
     .socialAccounts {
-        padding-top: 10px;
+        padding-top: 5px;
     }
     .socialAccounts i{
         font-size: 15px;
     }
     .introContainer {
-        padding: 20px 60px;
+        padding: 20px 50px;
     }
     .homeTimer h1{
         font-size: 32px;
     }
-    .homeContainer{
-        overflow-y: auto;
+    .homeTimer h1 {
+        padding-bottom: 5px;
     }
+    .homeTextArea h1 {    
+        margin: 0px 0px 13px;
+    }
+    
 
 }
 
