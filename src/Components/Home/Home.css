@@ -176,6 +176,10 @@
 
 @media(max-width: 1000px) {
 
+   
+        
+
+
     .backgroundImage {
         display: none;
     }
@@ -187,25 +191,22 @@
     .introContainer {
         max-width: 100vw;
     }
-    .introContainer img {
-        margin: 10px 0px 10px;
+    /*
+    #container .introContainer img {
+        margin: 0px 0px 15px;
 
     }
-    .downloads a{
-        padding: 20px 20px;
+    #container .homeTextArea p {
+        padding: 5px 0px;
+        font-size: 15px;
     }
-    .introContainer {
-        padding: 20px 60px;
+    #container .homeTextArea h1{
+        font-size: 30px;
     }
-    .homeTimer h1{
-        font-size: 32px;
-    }
-    .homeTimer h1 {
-        padding-bottom: 10px;
-    }
-    .homeTextArea h1 {    
-        margin: 0px 0px 13px;
-    }
+    #container .introContainer {
+        padding: 30px 70px;
+    }*/
+
 
 }
 
@@ -213,7 +214,6 @@
 
     .introContainer img {
         margin: 0px 0px 15px;
-
     }
     .homeTextArea p {
         font-size: 13px;
@@ -239,8 +239,6 @@
     }
     .homeTimer h1{
         font-size: 32px;
-    }
-    .homeTimer h1 {
         padding-bottom: 5px;
     }
     .homeTextArea h1 {    
