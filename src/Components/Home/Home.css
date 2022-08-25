@@ -194,7 +194,10 @@
     .downloads a{
         padding: 20px 20px;
     }
-
+    .introContainer {
+        padding: 60px 60px;
+    }
+    
 }
 
 @media(max-width:1500px){
@@ -218,11 +221,12 @@
     .socialAccounts i{
         font-size: 15px;
     }
-    .introContainer {
-        padding: 20px 60px;
-    }
+    
     .homeTimer h1{
         font-size: 32px;
+    }
+    .introContainer {
+        padding: 30px 60px;
     }
 
 }
