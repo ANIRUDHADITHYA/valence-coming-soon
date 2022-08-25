@@ -279,13 +279,18 @@
     }
 
     .introContainer {
-        padding: 20px 45px;
+        padding: 30px 45px;
         align-items: center;
 
     }
     .homeContainer{
         overflow-y: auto;
     }
-    
+    .downloads input {
+        padding: 15px 20px;
+    }
+    .downloads a{
+        padding: 15px 20px;
+    }
 
 }
