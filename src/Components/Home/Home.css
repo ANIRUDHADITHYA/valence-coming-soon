@@ -174,7 +174,7 @@
 
 
 
-@media(max-width: 1080px) {
+@media(max-width: 1210px) {
 
     .backgroundImage {
         display: none;
@@ -194,10 +194,7 @@
     .downloads a{
         padding: 20px 20px;
     }
-    .introContainer {
-        padding: 60px 60px;
-    }
-    
+
 }
 
 @media(max-width:1500px){
@@ -221,12 +218,14 @@
     .socialAccounts i{
         font-size: 15px;
     }
-    
+    .introContainer {
+        padding: 20px 60px;
+    }
     .homeTimer h1{
         font-size: 32px;
     }
-    .introContainer {
-        padding: 30px 60px;
+    .homeContainer{
+        overflow-y: auto;
     }
 
 }
@@ -283,7 +282,7 @@
     }
 
     .introContainer {
-        padding: 10px 45px;
+        padding: 30px 45px;
         align-items: center;
 
     }
@@ -291,10 +290,10 @@
         overflow-y: auto;
     }
     .downloads input {
-        padding: 15px 20px;
+        padding: 10px 20px;
     }
     .downloads a{
-        padding: 15px 20px;
+        padding: 10px 20px;
     }
 
 }
