@@ -20,7 +20,7 @@ const Home = () => {
 
     const startTimer = () => {
 
-        const countdownDate = new Date('October 15, 2022 00:00:00').getTime();
+        const countdownDate = new Date('October 16, 2022 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
